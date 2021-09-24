@@ -5,7 +5,7 @@
 
 using namespace std;
 //az alábbi megoldás a szavakat felcseréli, de a betûket is
-void reverseStr(string& str)
+/*void reverseStr(string& str)
 {
     int n = str.length();
 
@@ -21,9 +21,9 @@ int main()
     reverseStr(s);
     cout << s;
     return 0;
-}
+}*/
 //az alábbi megoldás a betûket felcseréli, de a szavakat nem, azok maradnak a helyükön
-/*class Solution {
+class Solution {
 public:
     string reverseWords(string s) {
         reverse(s.begin(), s.end());
@@ -68,4 +68,5 @@ int main() {
     getline(cin, s);
     ob.reverseWordss(s);
     cout << s;
-}*/
+    return 0;
+}
